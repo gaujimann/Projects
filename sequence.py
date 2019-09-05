@@ -4,8 +4,11 @@ current_num = 3
 prev_num1 = 2
 prev_num2 = 1
 
-print(prev_num2)
-print(prev_num1)
+if n >= 2:
+    print(prev_num2)
+    print(prev_num1)
+else:
+    print (prev_num2)
 
 for i in range(3, n + 1):
     print(current_num)
